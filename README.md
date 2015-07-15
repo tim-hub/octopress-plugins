@@ -5,17 +5,27 @@ When generate the posts and pages, the plugin will generate the original link af
 
 And you can add the keyword after it too.
 
-It is cool and easily to use to help SEO and make readers notice the license.
+It is cool and easily to use to help **SEO** and make readers notice the license.
 
 ###How to Use:
 Just add it in your octopress plugin forder.
+
+###Notice
+
+Octopress is preparing to update to the version3, this plugin is for octopress2. And this plugin is just a small ruby script, it just add some codes let the octopress program ass original link below the post/page, so it is not difficult to change the plugin for using it in near octopress3
 
 
 ##Octopress Easy Post Tool
 Octopress use rake post to create a post. I found a Chinese coder's [article](http://my.oschina.net/u/160375/blog/160342) on oschina blog. 
 This man write an shell script to write octopress articles more easily.
 
-I found it is really useful.But ther is a little bug, And this is a new version.
+I found it is really useful. But ther is a little bug, And this is a new version.
+
+###Some Differences/ Bug Fixs
+- add `TZ=CCT` to support China timezone
+- add more commands combine for easily using
+- ...
+
 
 ###How to Use
 0 change the TimeZone
